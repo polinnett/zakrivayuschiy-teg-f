@@ -198,8 +198,6 @@ section {
   transition: color 0.5s ease-in-out;
 }
 
-
-
 .button__main {
   cursor: pointer;
   display: flex;
