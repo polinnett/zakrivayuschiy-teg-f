@@ -97,7 +97,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  gap: 12px;
+  gap: 8px;
 }
 
 .article__img-wrapper {
@@ -132,7 +132,22 @@ section {
 .card__icon-button {
   background-color: transparent;
   border: none;
-  margin-top: 8px;
+  height: 34px;
+  width: 34px;
+  padding: 0;
+}
+
+.like-icon {
+  padding-right: 9px;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  outline: 2px solid var(--main-color);
+  transition: outline 0.3s ease;
 }
 
 .card__like-button {
@@ -153,6 +168,7 @@ section {
 
 .card__like-button:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--main-color);
+  transition: box-shadow 0.3s ease;
 }
 
 .card__like-button::before {
@@ -203,6 +219,7 @@ section {
 
 .button__main:focus-visible {
   box-shadow: 2px 2px 0px 0px var(--main-color);
+  transition: box-shadow 0.3s ease;
 }
 
 .button__main::before {
@@ -327,6 +344,10 @@ dialog::backdrop {
 
 .img-8 {
   filter: hue-rotate(90deg) saturate(200%) drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.sparks {
+  opacity: 0;
 }
 
 

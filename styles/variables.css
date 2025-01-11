@@ -15,4 +15,5 @@
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
     --text-button-color: #000;
     --text-button-color-reverse: #fff;
+    --heart-color: #ff0000;
 }
